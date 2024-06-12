@@ -1,4 +1,4 @@
-# AhAuth
+# ah-jsb-auth
 
 ## Development
 
