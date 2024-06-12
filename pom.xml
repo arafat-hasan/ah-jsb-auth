@@ -9,9 +9,9 @@
         <relativePath /><!-- lookup parent from repository -->
     </parent>
     <groupId>com.hingtingchot</groupId>
-    <artifactId>ah-auth</artifactId>
+    <artifactId>ah-jsb-auth</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>ah-auth</name>
+    <name>ah-jsb-auth</name>
 
     <properties>
         <java.version>21</java.version>
