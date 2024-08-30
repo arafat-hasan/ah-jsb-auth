@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: ${DB_DSN:jdbc:postgresql://localhost:5432/ah-jsb-auth}
+    url: ${DB_DSN:jdbc:postgresql://localhost:5432/ah_jsb_auth}
     username: ${POSTGRES_USER:postgres}
     password: ${POSTGRES_PASSWORD:B4z1n9a!}
     hikari:
@@ -43,4 +43,4 @@ error:
 springdoc:
   pathsToMatch: /api/**
 server:
-  port: ${PORT}
+  port: ${PORT:8080}
