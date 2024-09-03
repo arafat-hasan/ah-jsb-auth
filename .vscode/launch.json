@@ -15,7 +15,8 @@
             "name": "AhAuthApplication",
             "request": "launch",
             "mainClass": "com.hingtingchot.ah_jsb_auth.AhAuthApplication",
-            "projectName": "ah-jsb-auth"
+            "projectName": "ah-jsb-auth",
+            "args": "--spring.profiles.active=dev"
         }
     ]
 }
