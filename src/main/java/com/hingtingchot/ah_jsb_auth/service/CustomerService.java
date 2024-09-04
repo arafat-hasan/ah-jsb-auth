@@ -69,7 +69,7 @@ public class CustomerService {
         customerDTO.setOrganization(customer.getOrganization());
         customerDTO.setProfilePicURL(customer.getProfilePicURL());
         customerDTO.setPassword(customer.getPassword());
-        customerDTO.setLastResetAt(customer.getLastResetAt());
+        customerDTO.setLastResetAt(customer.getPasswordResetAt());
         customerDTO.setCreatedAt(customer.getCreatedAt());
         customerDTO.setStatus(customer.getStatus());
         customerDTO.setUpdatedAt(customer.getUpdatedAt());
@@ -90,7 +90,7 @@ public class CustomerService {
         customer.setOrganization(customerDTO.getOrganization());
         customer.setProfilePicURL(customerDTO.getProfilePicURL());
         customer.setPassword(customerDTO.getPassword());
-        customer.setLastResetAt(customerDTO.getLastResetAt());
+        customer.setPasswordResetAt(customerDTO.getLastResetAt());
         customer.setCreatedAt(customerDTO.getCreatedAt());
         customer.setStatus(customerDTO.getStatus());
         customer.setUpdatedAt(customerDTO.getUpdatedAt());

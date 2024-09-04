@@ -63,7 +63,7 @@ public class AdminService {
         adminDTO.setOrganization(admin.getOrganization());
         adminDTO.setProfilePicURL(admin.getProfilePicURL());
         adminDTO.setPassword(admin.getPassword());
-        adminDTO.setLastResetAt(admin.getLastResetAt());
+        adminDTO.setLastResetAt(admin.getPasswordResetAt());
         adminDTO.setCreatedAt(admin.getCreatedAt());
         adminDTO.setStatus(admin.getStatus());
         adminDTO.setUpdatedAt(admin.getUpdatedAt());
@@ -85,7 +85,7 @@ public class AdminService {
         admin.setOrganization(adminDTO.getOrganization());
         admin.setProfilePicURL(adminDTO.getProfilePicURL());
         admin.setPassword(adminDTO.getPassword());
-        admin.setLastResetAt(adminDTO.getLastResetAt());
+        admin.setPasswordResetAt(adminDTO.getLastResetAt());
         admin.setCreatedAt(adminDTO.getCreatedAt());
         admin.setStatus(adminDTO.getStatus());
         admin.setUpdatedAt(adminDTO.getUpdatedAt());

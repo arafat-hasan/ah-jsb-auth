@@ -63,7 +63,7 @@ public class MerchantService {
         merchantDTO.setOrganization(merchant.getOrganization());
         merchantDTO.setProfilePicURL(merchant.getProfilePicURL());
         merchantDTO.setPassword(merchant.getPassword());
-        merchantDTO.setLastResetAt(merchant.getLastResetAt());
+        merchantDTO.setLastResetAt(merchant.getPasswordResetAt());
         merchantDTO.setCreatedAt(merchant.getCreatedAt());
         merchantDTO.setStatus(merchant.getStatus());
         merchantDTO.setUpdatedAt(merchant.getUpdatedAt());
@@ -85,7 +85,7 @@ public class MerchantService {
         merchant.setOrganization(merchantDTO.getOrganization());
         merchant.setProfilePicURL(merchantDTO.getProfilePicURL());
         merchant.setPassword(merchantDTO.getPassword());
-        merchant.setLastResetAt(merchantDTO.getLastResetAt());
+        merchant.setPasswordResetAt(merchantDTO.getLastResetAt());
         merchant.setCreatedAt(merchantDTO.getCreatedAt());
         merchant.setStatus(merchantDTO.getStatus());
         merchant.setUpdatedAt(merchantDTO.getUpdatedAt());

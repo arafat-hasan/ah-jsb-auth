@@ -73,16 +73,10 @@ public abstract class User {
     private String password;
 
     @Column(nullable = false)
-    private OffsetDateTime lastResetAt;
-
-    @Column(nullable = false)
-    private OffsetDateTime createdAt;
+    private OffsetDateTime passwordResetAt;
 
     @Column(nullable = false)
     private Boolean status;
-
-    @Column(nullable = false)
-    private OffsetDateTime updatedAt;
 
     @Column
     private String updatedBy;
