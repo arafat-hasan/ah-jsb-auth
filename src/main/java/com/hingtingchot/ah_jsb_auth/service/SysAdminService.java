@@ -64,9 +64,7 @@ public class SysAdminService {
         sysAdminDTO.setProfilePicURL(sysAdmin.getProfilePicURL());
         sysAdminDTO.setPassword(sysAdmin.getPassword());
         sysAdminDTO.setLastResetAt(sysAdmin.getPasswordResetAt());
-        sysAdminDTO.setCreatedAt(sysAdmin.getCreatedAt());
         sysAdminDTO.setStatus(sysAdmin.getStatus());
-        sysAdminDTO.setUpdatedAt(sysAdmin.getUpdatedAt());
         sysAdminDTO.setUpdatedBy(sysAdmin.getUpdatedBy());
         sysAdminDTO.setNid(sysAdmin.getNid());
         return sysAdminDTO;
@@ -86,9 +84,7 @@ public class SysAdminService {
         sysAdmin.setProfilePicURL(sysAdminDTO.getProfilePicURL());
         sysAdmin.setPassword(sysAdminDTO.getPassword());
         sysAdmin.setPasswordResetAt(sysAdminDTO.getLastResetAt());
-        sysAdmin.setCreatedAt(sysAdminDTO.getCreatedAt());
         sysAdmin.setStatus(sysAdminDTO.getStatus());
-        sysAdmin.setUpdatedAt(sysAdminDTO.getUpdatedAt());
         sysAdmin.setUpdatedBy(sysAdminDTO.getUpdatedBy());
         sysAdmin.setNid(sysAdminDTO.getNid());
         return sysAdmin;
