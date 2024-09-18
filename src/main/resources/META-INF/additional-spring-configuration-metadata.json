@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "security.jwt.secret-key",
+    "type": "java.lang.String",
+    "description": "JWT secret key. The secret key must be an HMAC hash string of 256 bits; otherwise, the token generation will throw an error."
+  },
+  {
+    "name": "security.jwt.expiration-time",
+    "type": "java.lang.String",
+    "description": "JWT token expiration time, expressed in milliseconds"
+  }
+]}

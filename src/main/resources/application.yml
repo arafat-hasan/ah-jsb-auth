@@ -44,3 +44,8 @@ springdoc:
   pathsToMatch: /api/**
 server:
   port: ${PORT:8080}
+
+security:
+  jwt:
+    secret-key: 999d4415446bfa6ca3295addacd50f4ac2da753281bbd1527bd8cadc736bf5f8
+    expiration-time: 3600000
